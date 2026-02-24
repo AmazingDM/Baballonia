@@ -712,19 +712,110 @@
     <value>Отклонить</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>Если вы используете Baballonia с VRCFaceTracking, вам не нужно изменять эти порты</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>Предпочтительный бэкенд</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>По умолчанию</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>Загрузить модель глаза</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>Загрузить пользовательскую прошивку</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>Автоматический запуск с SteamVR</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>Должно ли приложение запускаться с SteamVR? (Изменение требует перезапуска SteamVR.)</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>Включить расширенные настройки</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>Расширенные настройки</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>Ссылки на наше краткое руководство, социальные сети, документацию и т.д.</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>О Baballonia</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>Ссылки для гиков (GitHub и т.д.)</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>Благодарности</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>Люди, которые сделали этот проект тем, чем он является. Спасибо всем!</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>Краткое руководство ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Discord Babble ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>Discord PiShock ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Документация Babble ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Сайт Babble ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Блог Babble ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>Политика конфиденциальности данных ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Страница YouTube Babble ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Twitter Babble ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>GitHub Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Проблемы GitHub Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Лицензия Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Инструкции по сборке Baballonia ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} коммитов</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>Прошивка пользовательской прошивки на ваш Babble Tracker работает лучше всего, когда устройство сначала установлено в режим "Беспроводной".
+Вам не нужно вводить учетные данные Wi-Fi. Просто переключите трекер в режим "Беспроводной" и перезапустите его перед прошивкой.</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>Если вы используете Babble Tracker с Valve Index или Bigscreen Beyond (с/без базовых станций 1.0), вы можете заметить:
+• Ваш экран неожиданно становится серым
+• Отслеживание прерывается или часто теряет позицию
+Это обычно легко исправить! Просто установите прошивку "Tracking Loss Fix" ниже.</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>ru</value>
   </data>
 </root>

@@ -712,19 +712,110 @@
     <value>Dismiss</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>Baballonia'yı VRCFaceTracking ile birlikte kullanıyorsanız, bu bağlantı noktalarını değiştirmenize gerek yoktur</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>Tercih edilen arka uç</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>Varsayılan</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>Göz modeli yükle</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>Özel firmware yükle</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>SteamVR ile otomatik başlat</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>Uygulama SteamVR ile başlamalı mı? (Değişiklik SteamVR yeniden başlatmayı gerektirir.)</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>Gelişmiş ayarları etkinleştir</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>Gelişmiş ayarlar</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>Hızlı başlangıç kılavuzumuz, sosyal medya, belgeler vb. için bağlantılar</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>Baballonia hakkında</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>Meraklılar için bağlantılar (GitHub vb.)</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>Emeği geçenler</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>Bu projeyi şu anki hali getiren insanlar. Hepinize teşekkürler!</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>Hızlı başlangıç kılavuzu ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Babble Discord ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>PiShock Discord ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Babble Belgeleri ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Babble Sitesi ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Babble Blogu ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>Veri Gizlilik Politikası ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Babble YouTube Sayfası ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Babble Twitter ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>Baballonia GitHub ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Baballonia GitHub Sorunları ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Baballonia Lisansı ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Baballonia Yapım Talimatları ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} commit</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>Babble Tracker'ınıza özel firmware flash etmek, cihaz önce "Kablosuz" moduna ayarlandığında en iyi şekilde çalışır.
+Wi-Fi kimlik bilgileri girmeniz gerekmez. Takipçiyi sadece "Kablosuz" moduna geçirin, ardından flash etmeden önce yeniden başlatın.</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>Valve Index veya Bigscreen Beyond (1.0 baz istasyonları ile/olmadan) ile bir Babble Tracker kullanıyorsanız, şunları fark edebilirsiniz:
+• Ekranınız beklenmedik şekilde gri renge dönüyor
+• Takip kesiliyor veya sık sık konumunu kaybediyor
+Bu genellikle kolayca düzeltilebilir! Sadece aşağıdaki "Takip Kaybı Düzeltme" firmware'ini yükleyin.</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>tr</value>
   </data>
 </root>

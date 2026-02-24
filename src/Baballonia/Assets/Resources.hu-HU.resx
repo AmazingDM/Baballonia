@@ -712,19 +712,110 @@
     <value>Dismiss</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>Ha a Baballonia-t VRCFaceTracking-kel használja, nem kell módosítani ezeket a portokat</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>Preferált backend</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>Alapértelmezett</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>Szemmodell betöltése</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>Egyedi firmware betöltése</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>Automatikus indítás SteamVR-rel</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>Induljon el az alkalmazás a SteamVR-rel? (A módosításhoz a SteamVR újraindítása szükséges.)</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>Haladó beállítások engedélyezése</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>Haladó beállítások</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>Rólunk</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>Linkek a gyors útmutatónkhoz, közösségi médiához, dokumentációhoz stb.</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>A Baballonia-ról</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>Linkek geek-eknek (GitHub stb.)</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>Köszönet</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>Az emberek, akik ezt a projektet azzá tették, ami. Köszönjük mindenkinek!</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>Gyors útmutató ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Babble Discord ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>PiShock Discord ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Babble Dokumentáció ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Babble Weboldal ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Babble Blog ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>Adatvédelmi irányelvek ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Babble YouTube Oldal ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Babble Twitter ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>Baballonia GitHub ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Baballonia GitHub Issues ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Baballonia Licenc ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Baballonia Építési utasítások ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} commit</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>Egyedi firmware flash-elése a Babble Tracker-en a legjobban működik, ha az eszközt először "Vezeték nélküli" módba állítja.
+Nem kell megadnia Wi-Fi hitelesítő adatokat. Csak állítsa a trackert "Vezeték nélküli" módba, majd indítsa újra a flash-elés előtt.</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>Ha Babble Trackert használ Valve Index vagy Bigscreen Beyond (1.0 alapállomásokkal/nélkül) eszközzel, a következőket tapasztalhatja:
+• A képernyője váratlanul szürkévé válik
+• A követés megszakad vagy gyakran elveszíti a pozíciót
+Ez általában könnyen javítható! Csak telepítse a "Tracking Loss Fix" firmware-t alább.</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>Megjegyzés</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>hu</value>
   </data>
 </root>

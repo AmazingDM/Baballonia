@@ -712,19 +712,110 @@
     <value>Dismiss</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>如果您與 VRCFaceTracking 一起使用 Baballonia，則無需更改這些端口</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>首選後端</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>默認</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>載入眼睛模型</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>載入自定義固件</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>與 SteamVR 自動啟動</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>應用程序是否應與 SteamVR 一起啟動？（更改需要重新啟動 SteamVR。）</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>啟用高級設置</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>高級設置</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>關於我們</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>我們的快速入門指南、社交媒體、文檔等的連結</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>關於 Baballonia</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>給極客的連結（GitHub 等）</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>致謝</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>讓這個項目成為現在樣子的人們。感謝大家！</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>快速入門指南 ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Babble Discord ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>PiShock Discord ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Babble 文檔 ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Babble 網站 ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Babble 博客 ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>數據隱私政策 ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Babble YouTube 頁面 ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Babble Twitter ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>Baballonia GitHub ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Baballonia GitHub 問題 ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Baballonia 授權 ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Baballonia 建構說明 ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} 次提交</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>在您的 Babble Tracker 上刷寫自定義固件在設備首先設置為「無線」模式時效果最佳。
+您無需輸入任何 Wi-Fi 憑證。只需將追蹤器切換到「無線」模式，然後在刷寫前重新啟動。</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>如果您使用 Babble Tracker 與 Valve Index 或 Bigscreen Beyond（帶/不帶 1.0 基站），您可能會注意到：
+• 您的螢幕意外變成灰色
+• 追蹤中斷或經常失去位置
+這通常很容易修復！只需安裝下方的「追蹤損失修復」固件。</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>zh_TW</value>
   </data>
 </root>

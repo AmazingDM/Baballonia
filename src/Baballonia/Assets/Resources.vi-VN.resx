@@ -712,19 +712,110 @@
     <value>Dismiss</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>Nếu bạn sử dụng Baballonia với VRCFaceTracking, bạn không cần thay đổi các cổng này</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>Backend ưu tiên</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>Mặc định</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>Tải mô hình mắt</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>Tải firmware tùy chỉnh</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>Tự động khởi chạy với SteamVR</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>Ứng dụng có nên khởi chạy với SteamVR không? (Thay đổi yêu cầu khởi động lại SteamVR.)</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>Bật cài đặt nâng cao</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>Cài đặt nâng cao</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>Về</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>Về chúng tôi</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>Liên kết đến hướng dẫn bắt đầu nhanh của chúng tôi, mạng xã hội, tài liệu, v.v.</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>Về Baballonia</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>Liên kết cho geeks (GitHub v.v.)</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>Ghi nhận</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>Những người đã làm dự án này trở thành như nó hiện tại. Cảm ơn tất cả mọi người!</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>Hướng dẫn bắt đầu nhanh ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Discord Babble ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>Discord PiShock ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Tài liệu Babble ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Trang web Babble ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Blog Babble ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>Chính sách bảo mật dữ liệu ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Trang YouTube Babble ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Twitter Babble ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>GitHub Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Vấn đề GitHub Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Giấy phép Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Hướng dẫn xây dựng Baballonia ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} commits</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>Việc flash firmware tùy chỉnh vào Babble Tracker của bạn hoạt động tốt nhất khi thiết bị được đặt trước ở chế độ "Không dây".
+Bạn không cần nhập thông tin xác thực Wi-Fi. Chỉ cần chuyển tracker sang chế độ "Không dây" và khởi động lại nó trước khi flash.</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>Nếu bạn sử dụng Babble Tracker với Valve Index hoặc Bigscreen Beyond (với/không trạm cơ sở 1.0), bạn có thể nhận thấy:
+• Màn hình của bạn trở thành màu xám bất ngờ
+• Theo dõi bị ngắt hoặc thường xuyên mất vị trí
+Điều này thường dễ sửa chữa! Chỉ cần cài đặt firmware "Tracking Loss Fix" bên dưới.</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>vi</value>
   </data>
 </root>

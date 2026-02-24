@@ -712,19 +712,110 @@
     <value>Hylkää</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>Jos käytät Baballoniaa VRCFaceTrackingin kanssa, sinun ei tarvitse muuttaa näitä portteja</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>Ensisijainen taustaohjelma</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>Oletus</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>Lataa silmämalli</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>Lataa mukautettu laiteohjelmisto</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>Käynnistä automaattisesti SteamVR:n kanssa</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>Pitäisikö sovelluksen käynnistyä SteamVR:n kanssa? (Muutos vaatii SteamVR:n uudelleenkäynnistyksen.)</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>Ota käyttöön lisäasetukset</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>Lisäasetukset</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>Meistä</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>Linkit pikakäynnistysoppaaseemme, sosiaaliseen mediaan, dokumentaatioon jne.</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>Tietoja Baballoniasta</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>Linkit nördeille (GitHub jne.)</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>Kiitokset</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>Ihmiset, jotka tekivät tästä projektista sen, mitä se on. Kiitos kaikille!</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>Pikakäynnistysopas ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Babble Discord ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>PiShock Discord ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Babble Dokumentaatio ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Babble Sivusto ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Babble Blogi ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>Tietosuojakäytäntö ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Babble YouTube Sivu ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Babble Twitter ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>Baballonia GitHub ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Baballonia GitHub Ongelmat ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Baballonia Lisenssi ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Baballonia Kääntöohjeet ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} committia</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>Mukautetun laiteohjelmiston flashaus Babble Trackeriisi toimii parhaiten, kun laite on ensin asetettu "Langattomuus"-tilaan.
+Sinun ei tarvitse syöttää Wi-Fi-tunnistetietoja. Vaihda vain tracker "Langattomuus"-tilaan ja käynnistä se uudelleen ennen flashausta.</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>Jos käytät Babble Trackeriä Valve Index tai Bigscreen Beyond (ilman/1.0 tukiasemilla), saatat huomata:
+• Näyttösi muuttuu odottamattomasti harmaaksi
+• Seuranta katkeilee tai menettää sijainnin usein
+Tämä on yleensä helppo korjata! Asenna vain "Tracking Loss Fix" -laiteohjelmisto alla.</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>Huomautus</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>fi</value>
   </data>
 </root>

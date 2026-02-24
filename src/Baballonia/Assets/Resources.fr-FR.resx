@@ -712,19 +712,110 @@
     <value>Refuser</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>Si vous utilisez Baballonia avec VRCFaceTracking, il n'est pas nécessaire de modifier ces ports</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>Backend préféré</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>Défaut</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>Charger le modèle d'œil</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>Charger un firmware personnalisé</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>Démarrage automatique avec SteamVR</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>L'application doit-elle démarrer avec SteamVR ? (Le changement nécessite un redémarrage de SteamVR.)</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>Activer les paramètres avancés</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>Paramètres avancés</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>À propos de nous</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>Liens vers notre guide de démarrage rapide, médias sociaux, documentation, etc.</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>À propos de Baballonia</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>Liens pour les geeks (GitHub et ainsi de suite)</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>Crédits</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>Les personnes qui ont fait ce projet ce qu'il est. Merci à tous !</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>Guide de démarrage rapide ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Discord Babble ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>Discord PiShock ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Documentation Babble ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Site Babble ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Blog Babble ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>Politique de confidentialité des données ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Page YouTube Babble ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Twitter Babble ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>GitHub Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Issues GitHub Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Licence Baballonia ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Instructions de construction Baballonia ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} commits</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>Le flash d'un firmware personnalisé sur votre Babble Tracker fonctionne mieux lorsque l'appareil est d'abord réglé sur mode "Sans fil".
+Vous n'avez pas besoin d'entrer d'identifiants Wi-Fi. Il suffit de basculer le tracker en mode "Sans fil", puis de le redémarrer avant le flash.</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>Si vous utilisez un Babble Tracker avec Valve Index ou Bigscreen Beyond (avec/sans stations de base 1.0), vous pourriez remarquer :
+• Votre écran devenant gris de manière inattendue
+• Le suivi se coupant ou perdant fréquemment la position
+Ceci est généralement facile à corriger ! Installez simplement le firmware "Tracking Loss Fix" ci-dessous.</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>fr</value>
   </data>
 </root>

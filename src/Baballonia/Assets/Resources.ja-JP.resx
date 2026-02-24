@@ -712,19 +712,110 @@
     <value>却下する</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_OSC_VRCFT_Warning" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
+    <value>BaballoniaをVRCFaceTrackingと一緒に使用している場合、これらのポートを変更する必要はありません</value>
   </data>
-  <data name="Home_Eye_Load_Model" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Preferred_Backend" xml:space="preserve">
+    <value>優先バックエンド</value>
   </data>
-  <data name="Firmware_Custom_Firmware_Load" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Backend_Default" xml:space="preserve">
+    <value>デフォルト</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Home_Eye_Load_Model" xml:space="preserve">
+    <value>アイモデルを読み込み</value>
   </data>
-  <data name="Settings_SteamVR_Auto_Start_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
+    <value>カスタムファームウェアを読み込み</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
+    <value>SteamVRで自動開始</value>
+  </data>
+  <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
+    <value>アプリをSteamVRで起動しますか？（変更にはSteamVRの再起動が必要です。）</value>
+  </data>
+  <data name="Settings_Advanced_Header" xml:space="preserve">
+    <value>詳細設定を有効にする</value>
+  </data>
+  <data name="Settings_Advanced_Description" xml:space="preserve">
+    <value>詳細設定</value>
+  </data>
+  <data name="About_Title_Header" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="About_AboutUs_Header" xml:space="preserve">
+    <value>私たちについて</value>
+  </data>
+  <data name="About_AboutUs_Description" xml:space="preserve">
+    <value>クイックスタートガイド、ソーシャルメディア、ドキュメントなどのリンク</value>
+  </data>
+  <data name="About_AboutBaballonia_Header" xml:space="preserve">
+    <value>Baballoniaについて</value>
+  </data>
+  <data name="About_AboutBaballonia_Description" xml:space="preserve">
+    <value>オタク向けリンク（GitHubなど）</value>
+  </data>
+  <data name="About_Credits_Header" xml:space="preserve">
+    <value>クレジット</value>
+  </data>
+  <data name="About_Credits_Description" xml:space="preserve">
+    <value>このプロジェクトを今あるものにした人々。皆さん、ありがとう！</value>
+  </data>
+  <data name="About_QuickstartGuide_Alias" xml:space="preserve">
+    <value>クイックスタートガイド ⧉</value>
+  </data>
+  <data name="About_BabbleDiscord_Alias" xml:space="preserve">
+    <value>Babble Discord ⧉</value>
+  </data>
+  <data name="About_PishockDiscord_Alias" xml:space="preserve">
+    <value>PiShock Discord ⧉</value>
+  </data>
+  <data name="About_BabbleDocs_Alias" xml:space="preserve">
+    <value>Babbleドキュメント ⧉</value>
+  </data>
+  <data name="About_BabbleSite_Alias" xml:space="preserve">
+    <value>Babbleサイト ⧉</value>
+  </data>
+  <data name="About_BabbleBlog_Alias" xml:space="preserve">
+    <value>Babbleブログ ⧉</value>
+  </data>
+  <data name="About_BabbleDataPrivacyPolicy_Alias" xml:space="preserve">
+    <value>データプライバシーポリシー ⧉</value>
+  </data>
+  <data name="About_YoutubeLink_Alias" xml:space="preserve">
+    <value>Babble YouTubeページ ⧉</value>
+  </data>
+  <data name="About_BabbleTwitter_Alias" xml:space="preserve">
+    <value>Babble Twitter ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithub_Alias" xml:space="preserve">
+    <value>Baballonia GitHub ⧉</value>
+  </data>
+  <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
+    <value>Baballonia GitHub Issues ⧉</value>
+  </data>
+  <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
+    <value>Baballoniaライセンス ⧉</value>
+  </data>
+  <data name="About_BaballoniaBuildInstructions_Alias" xml:space="preserve">
+    <value>Baballoniaビルド手順 ⧉</value>
+  </data>
+  <data name="About_Contributors_Commits" xml:space="preserve">
+    <value>{0} コミット</value>
+  </data>
+  <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
+    <value>Babble Trackerにカスタムファームウェアをフラッシュするのは、デバイスを最初に「ワイヤレス」モードに設定した場合に最もよく機能します。
+Wi-Fi認証情報を入力する必要はありません。トラッカーを「ワイヤレス」モードに切り替えてから、フラッシュする前に再起動してください。</value>
+  </data>
+  <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
+    <value>Valve IndexまたはBigscreen Beyond（1.0ベースステーションの有無にかかわらず）でBabble Trackerを使用している場合、以下の問題が発生する可能性があります：
+• 画面が予期せず灰色になる
+• トラッキングが途切れたり、頻繁に位置を失ったりする
+これは通常、簡単に修正できます！以下の「Tracking Loss Fix」ファームウェアをインストールしてください。</value>
+  </data>
+  <data name="Common_Note" xml:space="preserve">
+    <value>注</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>ja</value>
   </data>
 </root>
