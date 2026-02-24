@@ -511,6 +511,15 @@ namespace Baballonia.Assets {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Note.
+        /// </summary>
+        public static string Common_Note {
+            get {
+                return ResourceManager.GetString("Common_Note", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Start typing....
         /// </summary>
         public static string Common_Start_Typing {
@@ -673,6 +682,18 @@ namespace Baballonia.Assets {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to If you are using a Babble Tracker with a Valve Index or Bigscreen Beyond (with/without 1.0 base stations), you might notice:
+        ///• Your screen turning grey unexpectedly
+        ///• Tracking cutting out or frequently losing position
+        ///This is usually easy to fix! Just install the “Tracking Loss Fix” firmware below..
+        /// </summary>
+        public static string Firmware_Flashing_Header_Alert {
+            get {
+                return ResourceManager.GetString("Firmware_Flashing_Header_Alert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This will take around ~10 seconds. Don&apos;t leave this page!.
         /// </summary>
         public static string Firmware_Flashing_Note {
@@ -687,6 +708,16 @@ namespace Baballonia.Assets {
         public static string Firmware_Flashing_Warning {
             get {
                 return ResourceManager.GetString("Firmware_Flashing_Warning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Flashing custom firmware onto your Babble Tracker works best when the device is set to “Wireless” mode first. 
+        ///You don’t need to enter any Wi-Fi credentials. Just switch the tracker to “Wireless” mode, then restart it before flashing..
+        /// </summary>
+        public static string Firmware_Flashing_Wireless_Prompt {
+            get {
+                return ResourceManager.GetString("Firmware_Flashing_Wireless_Prompt", resourceCulture);
             }
         }
         
