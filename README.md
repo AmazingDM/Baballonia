@@ -2,17 +2,23 @@
 
 # Baballonia
 
-**Baballonia** is a cross-platform, hardware-agnostic VR eye and face tracking application.
+**Baballonia** is a cross-platform, hardware-agnostic XR eye and face tracking application.
 
 ## Installation
 
-### Windows
+### Steam
+
+Baballonia is now on Steam! [Download it here!](https://store.steampowered.com/app/4091970/Project_Babble_Baballonia/)
+
+*This is the suggested install method. You will automatically recieve updates with this method.*
+
+### Windows (Alternative)
 
 Head to the releases tab and [download the latest installer](https://github.com/Project-Babble/Baballonia/releases/latest).
 
 You may be prompted to download the .NET runtime for desktop apps, install it if need be.
 
-### Linux
+### Linux (Alternative)
 
 Head to the releases tab and [download the latest tarball](https://github.com/Project-Babble/Baballonia/releases/latest).
 
@@ -23,6 +29,8 @@ You may be prompted to download the .NET runtime for desktop apps, install it if
 Baballonia currently does not have an installer for MacOS. You will need to follow our build instructions and run it from source.
 
 ## Platform Compatibility
+
+To get started, follow the [quickstart guide on our documentation page](https://docs.babble.diy/docs/babbleofficaltracker).
 
 ### VRChat
 
@@ -44,23 +52,27 @@ While this doesn't support lower face tracking, it supports (almost) all VRChat 
 
 ### Resonite / ChilloutVR
 
-Existing mods *should* be compatible with Baballonia's lower face tracking.
+Existing mods should be compatible with Baballonia's lower face tracking.
+
+*For more game information, refer to our [games documentation page](https://docs.babble.diy/docs/software/integrations).*
 
 ## Supported Hardware
 
 Baballonia supports many kinds of hardware for eye and face tracking:
 
-| Device                            | Eyes | Face | Notes                                                       |
-|-----------------------------------| ----- | ----- |-------------------------------------------------------------|
-| Official Babble Face Tracker      | :x: | ✅ |                                                             |
-| DIY and 3rd party Babble Trackers | :x: | ✅ |                                                             |
-| Vive Facial Tracker               | :x: | ✅ | Linux Only, WIP                                             |
-| DIY EyetrackVR                    | ✅ | :x: |                                                             |
-| Bigscreen Beyond 2E               | ✅ | :x: |                                                             |
-| Vive Pro Eye                      | ✅ | :x: | Requires [Revision](https://github.com/Blue-Doggo/ReVision) |
-| Varjo Aero                        | ✅ | :x: | Requires the Varjo Streamer                                 |
-| HP Reverb G2 Omnicept             | ✅ | :x: | Requires [BrokenEye](https://github.com/ghostiam/BrokenEye) |
-| Pimax Crystal                     | ✅ | :x: | Requires [BrokenEye](https://github.com/ghostiam/BrokenEye) |
+| Device                            | Eyes | Face | Notes                                                                                        |
+|-----------------------------------| ----- | ----- |-------------------------------------------------------------------------------------------|
+| Official Babble Face Tracker      | :x: | ✅ |                                                                                                |
+| DIY and 3rd party Babble Trackers | :x: | ✅ |                                                                                                |
+| Vive Facial Tracker               | :x: | ✅ |                                                                                                |
+| DIY EyetrackVR                    | ✅ | :x: |                                                                                                |
+| Bigscreen Beyond 2E               | ✅ | :x: | *On Linux*, requires [go-bsb-cams](https://github.com/LilliaElaine/go-bsb-cams)                |
+| Vive Pro Eye                      | ✅ | :x: | Requires [Revision](https://github.com/Blue-Doggo/ReVision)                                    |
+| Varjo Aero                        | ✅ | :x: | Requires the [Varjo Streamer](https://docs.babble.diy/docs/software/baballonia/varjo-streamer) |
+| HP Reverb G2 Omnicept             | ✅ | :x: | Requires [BrokenEye](https://github.com/ghostiam/BrokenEye)                                    |
+| Pimax Crystal                     | ✅ | :x: | Requires [BrokenEye](https://github.com/ghostiam/BrokenEye)                                    |
+
+*For more hardware information, refer to our [hardware documentation page](https://docs.babble.diy/docs/software/integrations).*
 
 ---
 
@@ -78,11 +90,10 @@ Baballonia supports many kinds of hardware for eye and face tracking:
 - `Baballonia.Android`
 3. Run ``dotnet build`` inside the ``src/Baballonia.Desktop`` directory, or build with your IDE
 
-
 #### Publishing
 
 If you want to publish a standalone installer for Baballonia, download [NSIS](https://github.com/negrutiu/nsis) here, or use your package manager. Then, run the 
-`.iss` script located at `src/Baballonia.Desktop/main.nsi`
+`.nsi` script located at `src/Baballonia.Desktop/main.nsi`
 
 ### Baballonia.Android/iOS
 
@@ -105,3 +116,5 @@ If you want to publish a standalone installer for Baballonia, download [NSIS](ht
 2. Run ``dotnet build`` inside the ``src/VRCFaceTracking.Baballonia`` directory, or build with your IDE
 
 This will create a `VRCFaceTracking.Baballonia.zip` module which you can install manually.
+
+*For more build information, refer to our [build documentation page](https://docs.babble.diy/docs/software/integrations).*
